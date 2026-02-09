@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // function students(id,name ,address){
+    //     this.id = id;
+    //     this.name = name;
+    //     this.address = address;
+    //     this.getInfor= function(){
+    //         return `Id= ${this.id} name= ${this.name}  address= ${this.address}`;
+    //
+    //     }
+    // }
+    // let student= new students(1 ,"Pho giao su" , "ha noi")
+    // console.log(student.getInfor());
+    let person = {
+        name: { first: 'Bob', last: 'Smith' },
+        age: 32,
+        interests: ['music', 'skiing'],
+        greeting: function() {
+            alert('Hi! I\'m ' + this.interests + '.');
+        }
+    };
+    person.height = '1.75m';
+    person.sayGoodbye = function() {
+        alert('Goodbye!');
+    };
+    console.log(person);
+
+</script>
+</body>
+</html>
